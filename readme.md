@@ -32,6 +32,16 @@ npm install
 ```
 4. Create a .env file and add your database credentials
 
+## Database Setup
+
+1. Create a PostgreSQL database.
+```bash
+psql -U postgres -c "CREATE DATABASE World;"
+```
+2. Run the schema file:
+```bash
+psql -U postgres -d World -f schema.sql
+```
 ## Running the App
 
 Start the server:
