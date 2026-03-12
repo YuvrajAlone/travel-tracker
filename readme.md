@@ -24,6 +24,20 @@ A web application that tracks visited countries and highlights them on a world m
 ```bash
 psql -U postgres -d your_database_name -f schema.sql
 ```
+    This will create :
+   ```bash 
+   visited_countries
+   countries
+   ```
+
+3. Import the dataset:
+
+  The project includes a file countries.csv.
+  Import this file into the countries table.
+
+   You can do this using pgAdmin Import/Export or the PostgreSQL \copy command.
+
+
 
 ## Installation
 
