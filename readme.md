@@ -43,7 +43,7 @@ psql -U postgres -d your_database_name -f schema.sql
 
 1. Clone the repository
 ```bash
-git clone https://github.com/yourusername/travel-tracker.git
+git clone https://github.com/YuvrajAlone/travel-tracker.git
 ```
 2. Navigate to the project folder
 ```bash
